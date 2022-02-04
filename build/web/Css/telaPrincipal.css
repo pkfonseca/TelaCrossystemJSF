@@ -1,0 +1,211 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+body{
+    background-color: #F0F2F5;
+}
+.containerPrincipal{
+    display: flex;
+    padding: 20px;
+    width: 980px;
+    margin: auto;
+}
+
+.theFacebook{
+    padding-right: 32px;   
+}
+
+.divImagemTheFaceboook{
+    padding: 112px 0 16px;
+    display: block
+}
+
+.divTextoTheFacebook{
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-size: 24px;
+    line-height: 28px;
+    width: auto;
+}
+
+.containerLogin{
+    margin: auto;
+    background-color: #F0F2F5;
+    height: 456px;
+    width: 396px;
+}
+.login{
+    align-items: center;
+    background-color: #fff;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    box-sizing: border-box;
+    margin: 40px 0 0;
+    padding: 20px 0 28px;
+    width: 396px;
+}
+
+.divEntradas{
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+.entrada{
+    font-size: 17px;
+    padding: 14px 16px;
+    width: 330px;
+    font-family: inherit;
+    border: 1px solid rgb(221, 223, 226);
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
+
+.botaoEntrar{
+    background-color: #1877f2;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    line-height: 48px;
+    padding: 0 16px;
+    width: 332px;
+    color: white;
+    font-family: inherit;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.botaoEntrar:hover{
+    background-color: rgb(22, 110, 224);
+
+}
+
+.linkEsqueceuSenha{
+    margin-top: 16px;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+a{
+    color: #385898;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.separador{
+    align-items: center;
+    border-bottom: 1px solid #dadde1;
+    display: flex;
+    margin: 20px 16px;
+    text-align: center;
+}
+
+
+.divCriarConta{
+    padding-top: 6px;
+    text-align: center;
+}
+
+.botaoCriarConta{
+    background-color: #42b72a;
+    border-color: #42b72a;
+    color: #fff;
+    border-radius: 6px;
+    font-size: 17px;
+    line-height: 48px;
+    padding: 0 16px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.botaoCriarConta:hover{
+    background-color:  #379c22;
+}
+
+.divDescricaoFacebook{
+    margin-top: 28px;
+    background-color: white;
+    font-size:14px;
+    text-align: center;
+    background-color: #F0F2F5;
+    font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+
+}
+.criarPagina{
+    font-style: none;
+    font-weight: bold;
+    color: black; 
+    font-size:14px;
+}
+
+
+/*.............MOBILE.............*/
+@media (max-width: 700px){
+
+    body{
+        background-color: #F0F2F5;
+    }
+    .formulario{
+        background-color: #F0F2F5;
+        width: 100%;
+    }
+    .containerPrincipal{
+        background-color: #F0F2F5;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        width: auto;
+        text-align: center;
+        
+    }
+    .divImagemTheFaceboook{
+        padding: 0 0 20px 0;
+    }
+    
+    .divTextoTheFacebook{
+        width: auto;
+    }
+    
+    .containerLogin{
+        margin:0;
+        width: auto;
+        height: auto;
+    }
+    .login{
+        align-items: center;
+        background-color: #fff;
+        border: none;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+        box-sizing: border-box;
+        margin: 20px 0 0;
+        padding: 10px 10px 28px;
+        width: 100%;
+    }
+
+    .entrada{
+        font-size: 17px;
+        padding: 14px 16px;
+        width: 90%;
+        font-family: inherit;
+        border: 1px solid rgb(221, 223, 226);
+        border-radius: 6px;
+        margin-bottom: 10px;
+    }
+    .botaoEntrar{
+        width: 90%;
+    }
+    
+    @media(max-width: 370px){
+        .divImagemTheFaceboook{
+            padding: 0px 40px 0;
+        }
+        .divTextoTheFacebook{
+            display: none;
+        }
+    }
+
+}
