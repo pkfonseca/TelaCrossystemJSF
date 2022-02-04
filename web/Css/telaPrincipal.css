@@ -20,12 +20,20 @@ body{
 
 .divImagemTheFaceboook{
     padding: 112px 0 16px;
-    display: block
+    display: flex;
+    align-items: center;
+}
+.cross{
+    margin: 0 7px 0;
+    font-size: 50px;
+    font-family: 'Nunito Sans', sans-serif;
+    color: rgb(58, 111, 229);
+    font-weight: bold;
 }
 
 .divTextoTheFacebook{
     font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
-    font-size: 24px;
+    font-size: 22px;
     line-height: 28px;
     width: auto;
 }
@@ -159,16 +167,16 @@ a{
         margin: auto;
         width: auto;
         text-align: center;
-        
+
     }
     .divImagemTheFaceboook{
         padding: 0 0 20px 0;
     }
-    
+
     .divTextoTheFacebook{
         width: auto;
     }
-    
+
     .containerLogin{
         margin:0;
         width: auto;
@@ -198,14 +206,25 @@ a{
     .botaoEntrar{
         width: 90%;
     }
-    
+
     @media(max-width: 370px){
         .divImagemTheFaceboook{
-            padding: 0px 40px 0;
+            padding: 0 0 0;
+            width: auto;
+        }
+        .theFacebook{
+            padding: 0;
         }
         .divTextoTheFacebook{
             display: none;
         }
+    }
+    .cross{
+         margin: 0 2px 0;
+        font-size: 30px;
+        font-family: 'Nunito Sans', sans-serif;
+        color: rgb(58, 111, 229);
+        font-weight: bold;
     }
 
 }
